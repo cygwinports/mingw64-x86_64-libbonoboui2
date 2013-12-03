@@ -1,0 +1,10 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="libbonoboui"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-libbonoboui2"
+VERSION=2.24.5
+RELEASE=2
+CATEGORY="Devel"
+SUMMARY="GNOME component GUI library for Win64 toolchain"
+DESCRIPTION="GUI library for the GNOME component and compound document system"
